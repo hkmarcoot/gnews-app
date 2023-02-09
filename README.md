@@ -9,6 +9,9 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
+- [Brief](#brief)
+- [Submitting your solution](#submitting-your-solution)
+- [Extra credit](#extra-credit)
 
 ## Overview
 
