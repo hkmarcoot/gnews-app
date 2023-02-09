@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="font-mono border-none h-full bg-gradient-to-b from-sky-100 to-blue-200">
+    <footer className="font-mono border-none h-full bg-gradient-to-b from-sky-100 to-blue-200">
       <div className="mx-16 py-16 md:flex md:flex-row md:justify-around md:mx-8">
         <div>
           <img
@@ -69,6 +69,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
