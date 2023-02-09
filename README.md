@@ -14,6 +14,8 @@
 
 - Fetch data from gnews.io API
 
+- Unit tests for components
+
 ### Screenshot
 
 ![](./screenshot/gnews-homepage-desktop.png)
