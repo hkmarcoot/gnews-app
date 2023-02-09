@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Project demo link](#project-demo-link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
