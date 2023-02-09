@@ -39,7 +39,11 @@
 
 ### Continued development
 
-More sections can be added in the home page. The FAQ page and contact page can also be completed after the given time period. The search page in desktop version has a bit margin problem between history section and result section but it is not obvious, which can be improved when there is more time. The hamburger menu can only be closed when clicking on the menu. This can be corrected by adding JavaScript.
+- More sections can be added in the home page.
+- The FAQ page and contact page can also be completed after the given time period.
+- The search page in desktop version has a bit margin problem between history section and result section but it is not obvious, which can be improved when there is more time.
+- The hamburger menu can only be closed when clicking on the menu. This can be corrected by adding JavaScript.
+- More unit tests can be added.
 
 ## Brief
 
