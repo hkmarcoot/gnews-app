@@ -23,7 +23,7 @@
 ![](./screenshot/gnews-searchpage-desktop.png)
 ![](./screenshot/gnews-searchpage-mobile.png)
 
-## Project demo link
+### Project demo link
 
 - Live Site URL: [Live site URL here](https://gnews-app-marco.netlify.app)
 
