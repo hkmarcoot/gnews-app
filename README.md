@@ -1,5 +1,15 @@
 # Percayso Programming Exercise 3
 
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+
 ## Overview
 
 ### The challenge
