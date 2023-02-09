@@ -1,15 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar/Navbar";
+import HomeHeroSection from "../../components/HomeHeroSection/HomeHeroSection";
+import SubscribeSection from "../../components/SubscribeSection/SubscribeSection";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
   return (
     <div>
-      <h1 className="text-blue-300 text-3xl font-bold underline">
-        This is the Home Page
-      </h1>
-      <Link to="/">Homepage</Link>
-      <Link to="/faqpage">FAQ Page</Link>
-      <Link to="/contactpage">Contact Page</Link>
+      <Navbar />
+      <HomeHeroSection />
+      <SubscribeSection />
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import HomePage from "./pages/HomePage/index.jsx";
+import SearchPage from "./pages/SearchPage/index.jsx";
 import FAQPage from "./pages/FAQPage/index.jsx";
 import ContactPage from "./pages/ContactPage/index.jsx";
 
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<HomePage />} />
+      <Route path="searchpage" element={<SearchPage />} />
       <Route path="faqpage" element={<FAQPage />} />
       <Route path="contactpage" element={<ContactPage />} />
 
