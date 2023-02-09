@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react";
-import HomeHeroSection from "./HomeHeroSection.jsx";
+// import { render, screen } from "@testing-library/react";
+// import HomeHeroSection from "./HomeHeroSection.jsx";
 
 // test("Check GNews home page title", () => {
 //   render(<HomeHeroSection />);
