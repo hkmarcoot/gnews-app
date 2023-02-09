@@ -1,3 +1,11 @@
+/*************** Code Explanation ********************/
+//This section is for demonstration.
+
+//Entering email or clicking the subscribe button
+//will not do anything.
+
+/*************** Code Explanation ends ***************/
+
 export default function SubscribeSection() {
   return (
     <div

@@ -1,3 +1,10 @@
+/*************** Code Explanation ********************/
+//If the search is successful, the data received will be
+//passed to result section, and the topic will be
+//added to the history, which is also passed to the cookie.
+
+/*************** Code Explanation ends ***************/
+
 import { useState } from "react";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
@@ -25,8 +32,6 @@ export default function SearchSection({
 
   async function handleSubmit(e) {
     e.preventDefault();
-    // const topicInput = e.target[0];
-    // Check if the search input is empty or not
     if (topic) {
       const news = await getNewsData(topic);
 
@@ -35,10 +40,9 @@ export default function SearchSection({
         updateCurrentNews(news);
         addTopicToHistory(topic);
         console.log(news);
-        // topicInput.value = "";
       }
     } else {
-      // The website shows hero and feature sections when currentNews is empty.
+      // The website shows home hero section when currentNews is empty.
       updateCurrentNews("");
     }
   }

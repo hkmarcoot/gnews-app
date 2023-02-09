@@ -1,5 +1,15 @@
+/*************** Code Explanation ********************/
+//Custom useCookie is used to save user's search history.
+
+//Since cookie cannot save an array, I use split to transform
+//info from cookie back to an array.
+
+//With spread operator, I can add new elements to the array,
+//and remove chosen elements from the array.
+
+/*************** Code Explanation ends ***************/
+
 import React from "react";
-//import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import SearchSection from "../../components/SearchSection/SearchSection";
@@ -13,21 +23,12 @@ function SearchPage() {
   const [currentNews, setCurrentNews] = useState();
   let initialData = [];
   const [cookie, updateCookie] = useCookie("userTopics", initialData);
-  // const [topics, setTopics] = useState([
-  //   "Tiger Woods",
-  //   "Harry Potter",
-  //   "Elon Musk",
-  // ]);
-  // console.log("cookie1:");
-  // console.log(cookie);
 
   useEffect(() => {
     if (Array.isArray(cookie) === false) {
       let arr = [];
       arr = cookie.split(",");
       updateCookie(arr);
-      // console.log("arr");
-      // console.log(arr);
     }
   }, [cookie, updateCookie]);
 
@@ -50,8 +51,6 @@ function SearchPage() {
   function updateCurrentNews(newNews) {
     setCurrentNews(newNews);
   }
-  // console.log("cookie:");
-  // console.log(cookie);
 
   return (
     <div className="bg-green-50 h-full">

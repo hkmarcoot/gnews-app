@@ -1,8 +1,13 @@
+/*************** Code Explanation ********************/
+//This home hero section is responsive.
+
+/*************** Code Explanation ends ***************/
+
 import { Link } from "react-router-dom";
 
 export default function HomeHeroSection() {
   return (
-    <section>
+    <>
       <div className="relative">
         <div
           className="h-[32rem] bg-no-repeat bg-cover bg-center bg-fixed bg-[url('./images/gnews-hero-image.jpg')] opacity-40 brightness-75"
@@ -28,6 +33,6 @@ export default function HomeHeroSection() {
           Search The Most Updated News From Our Website
         </p>
       </div>
-    </section>
+    </>
   );
 }

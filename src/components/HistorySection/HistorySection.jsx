@@ -1,3 +1,19 @@
+/*************** Code Explanation ********************/
+//The info from cookie is passed to this section.
+
+//Since cookie cannot save an array, I use split to transform
+//info from cookie back to an array.
+
+//This user's history will be displayed here.
+
+//If there is user's history, user can delete all of the history
+//by clicking "Remove all history" button.
+
+//If the history is empty, a message "Your search history is empty"
+//will be displayed.
+
+/*************** Code Explanation ends ***************/
+
 import { useState } from "react";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
@@ -18,9 +34,6 @@ export default function HistorySection({
   removeTopicFromHistory,
   updateCookie,
 }) {
-  //   console.log("topics");
-  //   console.log(topics);
-
   if (Array.isArray(topics) === false) {
     topics = topics.split(",");
   }
@@ -32,21 +45,16 @@ export default function HistorySection({
   }
 
   function onClick() {
-    //console.log(topic);
     handleSubmit(topic);
   }
 
   async function handleSubmit(topic) {
-    // e.preventDefault();
-    // const topicInput = e.target[0];
-
     const news = await getNewsData(topic.block);
 
     if (news.Response === "False") return;
     else {
       updateCurrentNews(news);
       console.log(news);
-      // topicInput.value = "";
     }
   }
 
@@ -73,8 +81,6 @@ export default function HistorySection({
                   className="text-base pl-2 hover:text-blue-800 hover:underline hover:cursor-pointer"
                   onMouseOver={() => updateTopic({ block })}
                   onClick={() => {
-                    // setTopic({ block });
-                    // handleSubmit(topic);
                     onClick();
                   }}
                 >

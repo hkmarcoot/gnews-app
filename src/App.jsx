@@ -1,3 +1,8 @@
+/*************** Code Explanation ********************/
+//React router is used here to provide pages in the app.
+
+/*************** Code Explanation ends ***************/
+
 import {
   createBrowserRouter,
   createRoutesFromElements,

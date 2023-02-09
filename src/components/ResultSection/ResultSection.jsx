@@ -1,3 +1,8 @@
+/*************** Code Explanation ********************/
+//Show the data received by using map methods.
+
+/*************** Code Explanation ends ***************/
+
 export default function ResultSection({ news }) {
   return (
     <div className="border-none pb-4" data-testid="result-section-testing">

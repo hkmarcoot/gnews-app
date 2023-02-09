@@ -1,3 +1,8 @@
+/*************** Code Explanation ********************/
+//This footer is responsive.
+
+/*************** Code Explanation ends ***************/
+
 import { Link } from "react-router-dom";
 
 export default function Footer() {

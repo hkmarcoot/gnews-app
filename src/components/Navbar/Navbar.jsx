@@ -1,3 +1,12 @@
+/*************** Code Explanation ********************/
+//This navbar is responsive.
+
+//There is a hamburger menu when screen width is less than 1024px.
+
+//The hamburger menu use a state to control the visibility of the menu.
+
+/*************** Code Explanation ends ***************/
+
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
