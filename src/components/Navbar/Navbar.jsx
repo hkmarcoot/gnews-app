@@ -18,7 +18,7 @@ function Navbar() {
       <nav className="flex justify-between py-4 bg-gradient-to-b from-sky-100 to-blue-200 shadow-[0_4px_10px_rgba(0,0,0,0.25)]">
         <div className="flex items-center pl-8">
           <img
-            src="https://www.schoolofcode.co.uk/static/logo-51c754388b198e5bbb0d08a971ebbfa2.png"
+            src="https://cademy-images.b-cdn.net/efc9bc09-5362-4f9b-9d08-1586a423746f/580c3981-14aa-44b8-9c09-70f32af66aa1/original.png?width=256"
             alt="School Of Code Logo"
             width="50rem"
           />

@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="mx-16 py-16 md:flex md:flex-row md:justify-around md:mx-8">
         <div>
           <img
-            src="https://www.schoolofcode.co.uk/static/logo-51c754388b198e5bbb0d08a971ebbfa2.png"
+            src="https://cademy-images.b-cdn.net/efc9bc09-5362-4f9b-9d08-1586a423746f/580c3981-14aa-44b8-9c09-70f32af66aa1/original.png?width=256"
             alt="School Of Code Logo"
             width="50rem"
           />
