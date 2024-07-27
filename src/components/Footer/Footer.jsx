@@ -4,13 +4,14 @@
 /*************** Code Explanation ends ***************/
 
 import { Link } from "react-router-dom";
+import SOCLOGO from "../../images/SOC_logo.png";
 
 export default function Footer() {
   return (
     <footer className="font-mono border-none h-full bg-gradient-to-b from-sky-100 to-blue-200">
       <div className="mx-16 py-16 md:flex md:flex-row md:justify-around md:mx-8">
         <div>
-          <img src="" alt="School Of Code Logo" width="50rem" />
+          <img src={SOCLOGO} alt="School Of Code Logo" width="50rem" />
           <p className="mt-4 text-gray-500">
             Simple News API to search<br></br> News and Blog Articles
           </p>

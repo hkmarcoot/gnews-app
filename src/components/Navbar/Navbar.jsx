@@ -10,6 +10,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SOCLOGO from "../../images/SOC_logo.png";
 
 function Navbar() {
   const [isHamOpen, setIsHamOpen] = useState(false);
@@ -17,7 +18,7 @@ function Navbar() {
     <>
       <nav className="flex justify-between py-4 bg-gradient-to-b from-sky-100 to-blue-200 shadow-[0_4px_10px_rgba(0,0,0,0.25)]">
         <div className="flex items-center pl-8">
-          <img src="" alt="School Of Code Logo" width="50rem" />
+          <img src={SOCLOGO} alt="School Of Code Logo" width="50rem" />
           <p className="font-mono font-normal text-3xl md:text-4xl lg:text-5xl text-blue-800">
             GNews
           </p>
